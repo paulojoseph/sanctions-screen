@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sanctions-screen batch report",
+  "type": "object",
+  "required": ["tool", "generated_at", "threshold", "summary", "results"],
+  "properties": {
+    "tool": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "index_built_at": { "type": ["string", "null"] },
+    "threshold": { "type": "number", "minimum": 0, "maximum": 1 },
+    "summary": {
+      "type": "object",
+      "required": ["rows", "rows_with_hits", "total_hits"],
+      "properties": {
+        "rows": { "type": "integer" },
+        "rows_with_hits": { "type": "integer" },
+        "total_hits": { "type": "integer" },
+        "hits_by_source": { "type": "object", "additionalProperties": { "type": "integer" } }
+      }
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["customer_id", "name", "hits"],
+        "properties": {
+          "customer_id": { "type": ["string", "null"] },
+          "name": { "type": "string" },
+          "dob": { "type": ["string", "null"] },
+          "country": { "type": ["string", "null"] },
+          "hits": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["entity_id", "source", "name", "score"],
+              "properties": {
+                "entity_id": { "type": "string" },
+                "source": { "enum": ["ofac", "un", "eu", "uk", "local"] },
+                "name": { "type": "string" },
+                "score": { "type": "number", "minimum": 0, "maximum": 1 },
+                "matchedAlias": { "type": ["string", "null"] },
+                "matched_strength": { "enum": ["strong", "weak", null] },
+                "programs": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

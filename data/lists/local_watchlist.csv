@@ -1,0 +1,15 @@
+id,name,type,aliases,dob,country,note,added_on
+LW-001,Heitor Bragança Nolasco,person,Heitor B. Nolasco|Tonho Nolasco,1966-08-02,BR,Fictional test record; adverse media: payment fraud investigation (2023-11),2023-11-20
+LW-002,Frigorífico Vale do Tocantins Ltda,organization,Frigo Vale Tocantins|FVT Carnes,,BR,Fictional test record; supplier dropped after audit finding,2024-02-06
+LW-003,Marlene Aparecida Quintanilha,person,Marlene Quintanilha,1958,BR,Fictional test record; referred by partner bank,2024-03-14
+LW-004,Distribuidora Cinco Estrelas Eireli,organization,Cinco Estrelas Distribuidora,,BR,Fictional test record; shell company suspected,2024-03-14
+LW-005,Osvaldo Pimentel Rangel,person,O. P. Rangel,1973-05-19,PT,Fictional test record; duplicate invoices across three clients,2024-05-27
+LW-006,Transportes Estrela do Norte S.A.,organization,Estrela do Norte Transportes,,BR,Fictional test record; customs irregularities,2024-06-03
+LW-007,Cássia Regina Bittencourt Lamego,person,Cassia Lamego|C. R. B. Lamego,1981-12-11,BR,Fictional test record; pep relative; enhanced review,2024-07-30
+LW-008,Ivan Maksimovich Tarasenko,person,Ivan Tarasenko,1969,UA,Fictional test record; counterparty flagged by freight forwarder,2024-09-09
+LW-009,Atlântica Comércio Exterior Ltda,organization,Atlantica Comex,,BR,Fictional test record; intermediary in rejected shipment,2024-09-09
+LW-010,Wellington da Costa Brito,person,Welington Brito,1990-01-07,BR,Fictional test record; chargeback pattern,2024-10-15
+LW-011,MV Santa Clara do Sul,vessel,Santa Clara do Sul,,,Fictional test record; port authority notice,2024-11-04
+LW-012,Zuleica Fontes Albuquerque,person,Z. Fontes,1962-04-23,BR,Fictional test record; ex-employee; do not onboard,2025-01-13
+LW-013,Importadora Lagoa Seca Ltda,organization,Lagoa Seca Import,,BR,Fictional test record; sanctions-evasion typology report,2025-01-13
+LW-014,Nilton Cesar Prado Vasconcelos,person,Nilton C. Prado,1955-09-30,BR,Fictional test record; referred by partner bank,2025-02-24

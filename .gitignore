@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+output/
+data/index.json.gz
+data/cache/
+
+# downloaded lists land here; the hand-curated local watchlist is the exception
+data/lists/*
+!data/lists/local_watchlist.csv
+!data/lists/.gitkeep

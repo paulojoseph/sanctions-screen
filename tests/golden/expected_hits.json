@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "generated_with": "0.1.2",
+    "reviewed_by": "two analysts (compliance)",
+    "reviewed_on": "2025-03",
+    "customers": "examples/customers_small.csv",
+    "lists": "tests/fixtures/lists",
+    "threshold": 0.8,
+    "mode": "balanced"
+  },
+  "customers": {
+    "C-0001": [],
+    "C-0002": [],
+    "C-0003": [],
+    "C-0004": [],
+    "C-0005": [
+      {
+        "entity_id": "uk:14462",
+        "score": 1.0
+      }
+    ],
+    "C-0006": [],
+    "C-0007": [],
+    "C-0008": [],
+    "C-0009": [],
+    "C-0010": [],
+    "C-0011": [],
+    "C-0012": [],
+    "C-0013": [],
+    "C-0014": [],
+    "C-0015": [
+      {
+        "entity_id": "un:LYi.017",
+        "score": 1.0
+      },
+      {
+        "entity_id": "ofac:11917",
+        "score": 0.8367
+      },
+      {
+        "entity_id": "un:LYi.073",
+        "score": 0.8347
+      }
+    ],
+    "C-0016": [],
+    "C-0017": [],
+    "C-0018": [],
+    "C-0019": [
+      {
+        "entity_id": "eu:32439",
+        "score": 0.9165
+      }
+    ],
+    "C-0020": [
+      {
+        "entity_id": "ofac:14116",
+        "score": 1.0
+      }
+    ],
+    "C-0021": [],
+    "C-0022": [
+      {
+        "entity_id": "un:SOi.029",
+        "score": 0.9936
+      },
+      {
+        "entity_id": "eu:33153",
+        "score": 0.8582
+      }
+    ],
+    "C-0023": [],
+    "C-0024": [],
+    "C-0025": [
+      {
+        "entity_id": "un:SOi.027",
+        "score": 0.9595
+      }
+    ],
+    "C-0026": [
+      {
+        "entity_id": "ofac:11869",
+        "score": 1.0
+      }
+    ],
+    "C-0027": [
+      {
+        "entity_id": "un:LYi.078",
+        "score": 0.9391
+      },
+      {
+        "entity_id": "un:LYi.036",
+        "score": 0.92
+      }
+    ],
+    "C-0028": [],
+    "C-0029": [],
+    "C-0030": [],
+    "C-0031": [],
+    "C-0032": [],
+    "C-0033": [],
+    "C-0034": [],
+    "C-0035": [],
+    "C-0036": [],
+    "C-0037": [],
+    "C-0038": [],
+    "C-0039": [],
+    "C-0040": [
+      {
+        "entity_id": "ofac:14020",
+        "score": 1.0
+      },
+      {
+        "entity_id": "un:SOi.047",
+        "score": 0.87
+      }
+    ],
+    "C-0041": [],
+    "C-0042": [],
+    "C-0043": [],
+    "C-0044": [
+      {
+        "entity_id": "ofac:14242",
+        "score": 1.0
+      }
+    ],
+    "C-0045": [
+      {
+        "entity_id": "un:LYi.041",
+        "score": 1.0
+      },
+      {
+        "entity_id": "ofac:12277",
+        "score": 0.9783
+      },
+      {
+        "entity_id": "eu:32049",
+        "score": 0.9
+      }
+    ],
+    "C-0046": [],
+    "C-0047": [
+      {
+        "entity_id": "eu:33165",
+        "score": 0.8179
+      }
+    ],
+    "C-0048": [
+      {
+        "entity_id": "un:QDi.096",
+        "score": 1.0
+      },
+      {
+        "entity_id": "ofac:14617",
+        "score": 0.92
+      }
+    ],
+    "C-0049": [],
+    "C-0050": []
+  }
+}
